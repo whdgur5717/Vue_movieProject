@@ -4,4 +4,3 @@ import "./style.css"
 import App from "@/App.vue"
 const pinia = createPinia()
 createApp(App).use(pinia).mount("#app")
-console.log(process.env.VITE_BASE_URL)
