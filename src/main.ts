@@ -4,4 +4,4 @@ import "./style.css"
 import App from "@/App.vue"
 const pinia = createPinia()
 createApp(App).use(pinia).mount("#app")
-console.log("a")
+const a = 2
